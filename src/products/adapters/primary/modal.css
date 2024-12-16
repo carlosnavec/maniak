@@ -1,0 +1,41 @@
+/* Estilos para la ventana modal flotante */
+.product-modal {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+.product-modal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-modal button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-modal .close-modal {
+    position: absolute;
+    top: -20px;
+    right: -4px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #333;
+}
